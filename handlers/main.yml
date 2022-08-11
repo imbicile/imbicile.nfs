@@ -1,0 +1,4 @@
+---
+# handlers file for imbicile.nfs
+- name: reload exportfs
+  shell: "exportfs -ra"
