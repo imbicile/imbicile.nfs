@@ -1,9 +1,9 @@
 ---
 # defaults file for imbicile.nfs
 
-nfs_foldes_create: false
+nfs_folders_create: false
 
-nfs_foldes:
+nfs_folders:
   - path: ""
     address: ""
     permissions: ""

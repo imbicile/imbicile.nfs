@@ -9,8 +9,8 @@ Debian или Ubuntu
 ## Переменные
 
 ```yaml
-nfs_foldes_create: true
-nfs_foldes:
+nfs_folders_create: true
+nfs_folders:
   - path: "/nfs/foo"
     address: "192.168.100.0/24"
     permissions: "(rw,sync,no_subtree_check)"
@@ -23,8 +23,8 @@ nfs_foldes:
     - all
 
   vars:
-    nfs_foldes_create: true
-    nfs_foldes:
+    nfs_folders_create: true
+    nfs_folders:
       - path: "/nfs/foo"
         address: "192.168.100.0/24"
         permissions: "(rw,sync,no_subtree_check)"

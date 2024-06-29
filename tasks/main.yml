@@ -8,8 +8,8 @@
     owner: root
     group: root
     mode: 0644
-  loop: "{{ nfs_foldes }}"
-  when: nfs_foldes_create
+  loop: "{{ nfs_folders }}"
+  when: nfs_folders_create
 
 - name: install nfs
   apt:
